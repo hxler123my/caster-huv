@@ -1,6 +1,11 @@
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-do  local ui =  game:GetService("CoreGui"):FindFirstChild("Ui Chemse Hub")  if ui then ui:Destroy() end end
+local AutoFarm = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
